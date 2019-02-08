@@ -1,0 +1,120 @@
+body {
+    color: yellow;
+    background-image: url(../img/hotell.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+a {
+    text-decoration-color: green;
+    color: green;
+}
+
+p {
+    font-size: 12px;
+}
+
+.form-style-3{
+    max-width: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgb(57, 63, 41);
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid rgb(57, 63, 41);
+    padding: 20px;
+    background: transparent;
+    box-shadow: inset 0px 0px 15px rgb(57, 63, 41);
+    -moz-box-shadow: inset 0px 0px 15px rgb(57, 63, 41);
+    -webkit-box-shadow: inset 0px 0px 15px rgb(57, 63, 41);
+}
+.form-style-3 fieldset legend{
+    color: yellow;
+    border-top: 1px solid rgb(57, 63, 41);
+    border-left: 1px solid rgb(57, 63, 41);
+    border-right: 1px solid rgb(57, 63, 41);
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: black;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px rgb(57, 63, 41);
+    -moz-box-shadow:-0px -1px 2px rgb(57, 63, 41);
+    -webkit-box-shadow:-0px -1px 2px rgb(57, 63, 41);
+    font-weight: normal;
+    font-size: 12px;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=password],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=password],
+.form-style-3 select, 
+.form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid rgb(57, 63, 41);
+    outline: none;
+    color: yellow;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px rgb(57, 63, 41);
+    -moz-box-shadow: inset 1px 1px 4px rgb(57, 63, 41);
+    -webkit-box-shadow: inset 1px 1px 4px rgb(57, 63, 41);
+    background: black;
+    width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+    background: black;
+    border: 1px solid rgb(57, 63, 41);
+    padding: 5px 15px 5px 15px;
+    color: yellow;
+    box-shadow: inset -1px -1px 3px rgb(57, 63, 41);
+    -moz-box-shadow: inset -1px -1px 3px rgb(57, 63, 41);
+    -webkit-box-shadow: inset -1px -1px 3px rgb(57, 63, 41);
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;	
+    font-weight: bold;
+}
+.required {
+    color:red;
+    font-weight:normal;
+}
+
+h1 {
+    margin-top: 300px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color: white;
+}
